@@ -4,12 +4,12 @@ Read the Express documentation (https://expressjs.com/en/5x/api.html) and answer
 
 ## 1. What is inside the request object (`req`)?
 
-<!-- write your answer here -->
+Inside the 'req' object there is the HTTP request that sent from the client side, the path and the parameters...
 
 ## 2. What is inside the response object (`res`)?
 
-<!-- write your answer here -->
+Inside the 'res' object there is the answer of the server to the client request, when some request sent from the client and the server get it, it returns the answer when handling the request
 
 ## 3. What does `app.use()` do?
 
-<!-- write your answer here -->
+app.use() allow us to define a function that will execute when the server handle the request.
